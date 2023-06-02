@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+/* 
+@media screen and (min-width:480px) {
+    body{
+        background-color:rgb(37, 7, 211);
+    }
+}
+@media screen and (max-width:400px) {
+    h1{
+        color: yellow;
+        font-weight: bold;
+    }
+} */
+.me{
+    display: flex;
+    justify-content: space-between;
+    border: 5px red solid;
+}
+@media screen and (max-width:400px) {
+    .me{
+        color: brown;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
